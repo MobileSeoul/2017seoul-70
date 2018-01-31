@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="#4e4e4e"
+            android:textSize="35sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="대  중  교  통  분  실  물  찾  기"
+            android:textColor="#4e4e4e"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingBottom="30dp">
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/search_black"
+            android:background="?android:attr/selectableItemBackground"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:padding="13dp"
+            android:onClick="search"/>
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/guide"
+            android:background="?android:attr/selectableItemBackground"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:padding="13dp"
+            android:onClick="guide"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/developer"
+            android:background="?android:attr/selectableItemBackground"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:padding="13dp"
+            android:layout_marginLeft="20dp"
+            android:onClick="developer"/>
+
+    </LinearLayout>
+
+</LinearLayout>

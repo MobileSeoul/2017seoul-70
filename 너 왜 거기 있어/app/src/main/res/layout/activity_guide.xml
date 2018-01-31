@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="유실물 처리 안내"
+            android:textSize="20sp"
+            android:textColor="#4e4e4e"
+            android:padding="15dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#20000000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#6993c2"
+            android:text="이관 전"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#4e4e4e"
+            android:text="우체국 : 경찰청 유실물 센터로 바로 이관\n지하철, 철도, 버스, 택시, 공항, 유관기관 : 7일 보관 후 경찰청 유실물 센터로 이관"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#6993c2"
+            android:text="이관 후"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#4e4e4e"
+            android:text="6개월 이내 습득자가 없는 경우 : 국고 귀속 및 폐기\n6개월 이내 습득자가 있는 경우 : 수령\n(단, 3개월 이내 미수령 시 국고 귀속 및 폐기)"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="5dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#20000000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#6993c2"
+            android:text="더 자세한 정보는?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#4e4e4e"
+            android:text="https://www.lost112.go.kr"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

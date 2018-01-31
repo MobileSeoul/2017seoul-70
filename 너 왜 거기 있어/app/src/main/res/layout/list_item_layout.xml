@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        xmlns:card="http://schemas.android.com/apk/res-auto"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:clickable="true"
+        card:cardCornerRadius="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#f9f9f9"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/list_item_name_viewer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="알 수 없음"
+                android:textSize="19sp"
+                android:textColor="#4e4e4e"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/list_where_lost_viewer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="습득 장소 : 알 수 없음"
+                android:textSize="16sp"
+                android:textColor="#4e4e4e"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/list_when_lost_viewer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="습득 날짜 : 알 수 없음"
+                android:textSize="16sp"
+                android:textColor="#4e4e4e"
+                android:layout_marginTop="10dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/list_where_take_viewer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="수령 장소 : 알 수 없음"
+                    android:textSize="16sp"
+                    android:textColor="#4e4e4e"/>
+
+                <TextView
+                    android:id="@+id/list_item_id_viewer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="알 수 없음"
+                    android:textSize="15sp"
+                    android:textColor="#9c9c9c"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+
